@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46F4BD52CA4567500779BDD /* MantoCredentialValidator.docc in Sources */ = {isa = PBXBuildFile; fileRef = B46F4BD42CA4567500779BDD /* MantoCredentialValidator.docc */; };
+		B46F4BDB2CA4567500779BDD /* MantoCredentialValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46F4BD02CA4567500779BDD /* MantoCredentialValidator.framework */; };
+		B46F4BE02CA4567500779BDD /* MantoCredentialValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F4BDF2CA4567500779BDD /* MantoCredentialValidatorTests.swift */; };
+		B46F4BE12CA4567500779BDD /* MantoCredentialValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B46F4BD32CA4567500779BDD /* MantoCredentialValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46F4C112CA45B4C00779BDD /* CredentialValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F4C102CA45B4C00779BDD /* CredentialValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46F4BDC2CA4567500779BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46F4BC72CA4567500779BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46F4BCF2CA4567500779BDD;
+			remoteInfo = MantoCredentialValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46F4BD02CA4567500779BDD /* MantoCredentialValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MantoCredentialValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46F4BD32CA4567500779BDD /* MantoCredentialValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MantoCredentialValidator.h; sourceTree = "<group>"; };
+		B46F4BD42CA4567500779BDD /* MantoCredentialValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MantoCredentialValidator.docc; sourceTree = "<group>"; };
+		B46F4BDA2CA4567500779BDD /* MantoCredentialValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantoCredentialValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46F4BDF2CA4567500779BDD /* MantoCredentialValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantoCredentialValidatorTests.swift; sourceTree = "<group>"; };
+		B46F4C102CA45B4C00779BDD /* CredentialValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialValidator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46F4BCD2CA4567500779BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46F4BD72CA4567500779BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46F4BDB2CA4567500779BDD /* MantoCredentialValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46F4BC62CA4567500779BDD = {
+			isa = PBXGroup;
+			children = (
+				B46F4BD22CA4567500779BDD /* MantoCredentialValidator */,
+				B46F4BDE2CA4567500779BDD /* MantoCredentialValidatorTests */,
+				B46F4BD12CA4567500779BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B46F4BD12CA4567500779BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4BD02CA4567500779BDD /* MantoCredentialValidator.framework */,
+				B46F4BDA2CA4567500779BDD /* MantoCredentialValidatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46F4BD22CA4567500779BDD /* MantoCredentialValidator */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4C102CA45B4C00779BDD /* CredentialValidator.swift */,
+				B46F4BD32CA4567500779BDD /* MantoCredentialValidator.h */,
+				B46F4BD42CA4567500779BDD /* MantoCredentialValidator.docc */,
+			);
+			path = MantoCredentialValidator;
+			sourceTree = "<group>";
+		};
+		B46F4BDE2CA4567500779BDD /* MantoCredentialValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46F4BDF2CA4567500779BDD /* MantoCredentialValidatorTests.swift */,
+			);
+			path = MantoCredentialValidatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B46F4BCB2CA4567500779BDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46F4BE12CA4567500779BDD /* MantoCredentialValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B46F4BCF2CA4567500779BDD /* MantoCredentialValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46F4BE42CA4567500779BDD /* Build configuration list for PBXNativeTarget "MantoCredentialValidator" */;
+			buildPhases = (
+				B46F4BCB2CA4567500779BDD /* Headers */,
+				B46F4BCC2CA4567500779BDD /* Sources */,
+				B46F4BCD2CA4567500779BDD /* Frameworks */,
+				B46F4BCE2CA4567500779BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MantoCredentialValidator;
+			productName = MantoCredentialValidator;
+			productReference = B46F4BD02CA4567500779BDD /* MantoCredentialValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B46F4BD92CA4567500779BDD /* MantoCredentialValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46F4BE72CA4567500779BDD /* Build configuration list for PBXNativeTarget "MantoCredentialValidatorTests" */;
+			buildPhases = (
+				B46F4BD62CA4567500779BDD /* Sources */,
+				B46F4BD72CA4567500779BDD /* Frameworks */,
+				B46F4BD82CA4567500779BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46F4BDD2CA4567500779BDD /* PBXTargetDependency */,
+			);
+			name = MantoCredentialValidatorTests;
+			productName = MantoCredentialValidatorTests;
+			productReference = B46F4BDA2CA4567500779BDD /* MantoCredentialValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46F4BC72CA4567500779BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B46F4BCF2CA4567500779BDD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B46F4BD92CA4567500779BDD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B46F4BCA2CA4567500779BDD /* Build configuration list for PBXProject "MantoCredentialValidator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46F4BC62CA4567500779BDD;
+			productRefGroup = B46F4BD12CA4567500779BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46F4BCF2CA4567500779BDD /* MantoCredentialValidator */,
+				B46F4BD92CA4567500779BDD /* MantoCredentialValidatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46F4BCE2CA4567500779BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46F4BD82CA4567500779BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46F4BCC2CA4567500779BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46F4C112CA45B4C00779BDD /* CredentialValidator.swift in Sources */,
+				B46F4BD52CA4567500779BDD /* MantoCredentialValidator.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46F4BD62CA4567500779BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46F4BE02CA4567500779BDD /* MantoCredentialValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46F4BDD2CA4567500779BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46F4BCF2CA4567500779BDD /* MantoCredentialValidator */;
+			targetProxy = B46F4BDC2CA4567500779BDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B46F4BE22CA4567500779BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B46F4BE32CA4567500779BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B46F4BE52CA4567500779BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = manto.MantoCredentialValidator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46F4BE62CA4567500779BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = manto.MantoCredentialValidator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46F4BE82CA4567500779BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.MantoCredentialValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46F4BE92CA4567500779BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.MantoCredentialValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46F4BCA2CA4567500779BDD /* Build configuration list for PBXProject "MantoCredentialValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46F4BE22CA4567500779BDD /* Debug */,
+				B46F4BE32CA4567500779BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46F4BE42CA4567500779BDD /* Build configuration list for PBXNativeTarget "MantoCredentialValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46F4BE52CA4567500779BDD /* Debug */,
+				B46F4BE62CA4567500779BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46F4BE72CA4567500779BDD /* Build configuration list for PBXNativeTarget "MantoCredentialValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46F4BE82CA4567500779BDD /* Debug */,
+				B46F4BE92CA4567500779BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46F4BC72CA4567500779BDD /* Project object */;
+}
