@@ -1,0 +1,11 @@
+framework module MantoCredentialValidator {
+  umbrella header "MantoCredentialValidator.h"
+  export *
+
+  module * { export * }
+}
+
+module MantoCredentialValidator.Swift {
+  header "MantoCredentialValidator-Swift.h"
+  requires objc
+}
