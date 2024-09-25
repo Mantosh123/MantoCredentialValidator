@@ -19,7 +19,7 @@ public struct CredentialValidator {
     
     public static func isValidPassword(password: String) -> Bool {
         let passwordRegex = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$"
-        let passwordPredicate = NSPredicate(format: "SELF MATCHER %@", passwordRegex)
+        let passwordPredicate = NSPredicate(format: "SELF MATCHES %@", passwordRegex)
         return passwordPredicate.evaluate(with: password)
     }
     
